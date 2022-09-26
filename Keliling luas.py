@@ -17,7 +17,7 @@ def luas():
 
     if "lingkaran" in masukan_1:
         jari_jari=int(input("\nmasukkan nilai jari-jari :"))
-        Luas_lingkaran= jari_jari*jari_jari*math.pi*0.5
+        Luas_lingkaran= jari_jari*jari_jari*math.pi
         print("\n luas lingkaran anda adalah: ", Luas_lingkaran, " persegi")
 
     elif "persegipanjang" in masukan_1:
